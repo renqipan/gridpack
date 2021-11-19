@@ -1,0 +1,12 @@
+executable              = run.sh
+arguments               = $(dir) 
+Initialdir              = ../condor_out/$(dir)
+output                  = run.out
+error                   = run.err
+log                     = run.log
+RequestMemory           = 2000
+ShouldTransferFiles     = NO
++JobFlavour             = "nextweek"
+x509userproxy           = $ENV(HOME)/temp/x509up
+Queue dir from ../dir_tth.txt
+

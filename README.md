@@ -1,3 +1,5 @@
+#gridpack tutorail: an example  
+#generate tHW samples through JHUGenerator  
 export SCRAM_ARCH=slc7_amd64_gcc700  
 cmsrel CMSSW_10_6_0  
 cd CMSSW_10_6_0/src/  
@@ -10,6 +12,7 @@ cd cards
 cp -r /afs/cern.ch/user/r/repan/public/gridpack/tHW/ .  
 cd tHW/  
 source sample_dir.sh  
+cd ../../  
 cp -r /afs/cern.ch/user/r/repan/public/gridpack/condor_thw  
 cd condor_thw  
 voms-proxy-init --voms cms -valid 192:00 -out ~/temp/x509up   

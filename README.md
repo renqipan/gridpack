@@ -13,7 +13,7 @@ cp -r /afs/cern.ch/user/r/repan/public/gridpack/tHW/ .
 cd tHW/  
 source sample_dir.sh  
 cd ../../  
-cp -r /afs/cern.ch/user/r/repan/public/gridpack/condor_thw  
+cp -r /afs/cern.ch/user/r/repan/public/gridpack/condor_thw . 
 cd condor_thw  
 voms-proxy-init --voms cms -valid 192:00 -out ~/temp/x509up   
 #enter grid passwod  

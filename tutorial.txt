@@ -6,6 +6,7 @@ git clone git@github.com:cms-sw/genproductions.git genproductions
 cd genproductions/bin/JHUGen/
 cp /afs/cern.ch/user/r/repan/public/gridpack/install.py .
 #edit your own card file inside the "cards" directory
+#AKLOG=/usr/bin/aklog krenew -b -t -- screen -D -m
 ./install.py --card cards/tHW/thw_H4l125_JHUGen_couplings1020/JHUGen.input --name thw_1020 --force
 #some useful code is avaible in my lxplus
 # directory: /afs/cern.ch/user/r/repan/public/gridpack
